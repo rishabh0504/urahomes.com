@@ -38,7 +38,7 @@
     "@splidejs/react-splide": "^0.7.12",
     "add": "^2.0.6",
     "cookies-next": "^2.1.1",
-    "cssnano": "5.1.14",
+    "cssnano": "5.1.15",
     "lodash": "^4.17.21",
     "lottie-react": "^2.3.1",
     "next-auth": "^4.20.1",

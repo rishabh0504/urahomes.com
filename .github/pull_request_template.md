@@ -1,0 +1,9 @@
+- [ ] self review
+- [ ] Manually tested my implementation
+- [ ] jira ticket
+- [ ] unit testing
+- [ ] additions less than 250
+- [ ] describe changes
+- [ ] feature flag
+- [ ] web screenshot RTL&LTR
+- [ ] mobile screenshot RTL&LTR

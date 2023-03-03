@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+node_modules/.bin/pretty-quick --staged
+node_modules/.bin/lint-staged
+yarn typecheck

@@ -58,3 +58,4 @@ public/fallback-*.js.map
 
 #Project
 feature-flags.json
+.vercel

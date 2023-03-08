@@ -23,14 +23,12 @@ export default function CardItem() {
                 <SimpleGrid columns={1} spacing={2} m={3}>
                   <Box>
                     <Text fontSize={'md'} mr={1} ml={1} fontWeight={'bold'}>
-                      {' '}
                       {eachProperty.propertyName}
                     </Text>
                   </Box>
                   <Box display={'flex'}>
                     <BiLocationPlus color={'red'} />{' '}
                     <Text fontSize={'xs'} mr={1} ml={1}>
-                      {' '}
                       {eachProperty.location}
                     </Text>
                   </Box>
@@ -40,21 +38,21 @@ export default function CardItem() {
                   <Box display={'flex'} width={'100%'}>
                     <BiArea />{' '}
                     <Text fontSize={'xs'} mr={1} ml={1}>
-                      {' '}
+
                       {eachProperty.area}
                     </Text>
                   </Box>
                   <Box display={'flex'} width={'100%'}>
                     <BiBath />
                     <Text fontSize={'xs'} mr={1} ml={1}>
-                      {' '}
+
                       {eachProperty.bathrooms}
                     </Text>
                   </Box>
                   <Box display={'flex'} width={'100%'}>
                     <BiBed />
                     <Text fontSize={'xs'} mr={1} ml={1}>
-                      {' '}
+
                       {eachProperty.bedrooms}
                     </Text>
                   </Box>

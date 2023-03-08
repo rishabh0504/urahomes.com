@@ -17,6 +17,7 @@
     "prepare": "npx husky install"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
     "@chakra-ui/react": "^2.5.1",
     "@chakra-ui/theme": "^2.2.4",
     "@chakra-ui/theme-tools": "^2.0.16",

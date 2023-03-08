@@ -13,6 +13,7 @@ body {
   font-family: 'Rajdhani', sans-serif;
   margin-left: 10px;
   margin-right: 10px;
+  overflow-x: hidden;
 }
 /*
 :root {

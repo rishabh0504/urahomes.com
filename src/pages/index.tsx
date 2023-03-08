@@ -1,13 +1,8 @@
 import Head from 'next/head';
-// import Image from 'next/image';
 import { Rajdhani } from 'next/font/google';
-// import styles from '@/styles/global.module.css';
-// import Profile from '@/components/profile';
-// import Teams from '@/components/team';
-// import Product from '@/components/product';
 import CardItem from '@/components/carditem';
-import { Box, Grid, GridItem, SimpleGrid } from '@chakra-ui/react';
-import Carousel from '@/components/carousel';
+import { Grid, GridItem } from '@chakra-ui/react';
+import Header from '@/components/header';
 
 const roboto = Rajdhani({
   weight: '500',
@@ -23,18 +18,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main className={roboto.className}>
-        {/* <Profile />
-        <Teams />
-        <Product /> */}
-
-        {/*  */}
-
-        <Grid templateRows='repeat(2, 1fr)' templateColumns='repeat(5, 1fr)' gap={2}>
-          <GridItem rowSpan={1} colSpan={1}></GridItem>
-          <GridItem colSpan={4}>
-            <CardItem />
-          </GridItem>
-        </Grid>
+        <Header />
       </main>
     </>
   );

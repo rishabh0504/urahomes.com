@@ -31,18 +31,18 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [".ts", ".tsx"]
+        "extensions": [".ts", ".tsx", ".jsx"]
       }
     ],
     "strict": "off",
     "padded-blocks": "off",
-    "comma-dangle": "warn",
+    "comma-dangle": ["never"],
     "no-param-reassign": "off",
     "arrow-body-style": "off",
     "no-else-return": "error",
     "require-atomic-updates": "error",
     "dot-notation": "off",
-    "linebreak-style": ["error", "unix"],
+    "linebreak-style": ["error", "windows"],
     // "semi": ["error", "always"],
     "semi": "off",
     "@typescript-eslint/semi": "warn",
